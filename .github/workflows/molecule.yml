@@ -47,8 +47,6 @@ jobs:
             tag: "rawhide"
           - image: "opensuse"
             tag: "latest"
-          - image: "ubuntu"
-            tag: "latest"
     steps:
       - name: checkout
         uses: actions/checkout@v3

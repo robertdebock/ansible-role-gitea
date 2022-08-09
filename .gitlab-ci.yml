@@ -35,8 +35,6 @@ molecule:
         tag: "rawhide"
       - image: "opensuse"
         tag: "latest"
-      - image: "ubuntu"
-        tag: "latest"
 
 galaxy:
   script:
