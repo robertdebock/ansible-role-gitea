@@ -16,7 +16,7 @@ galaxy_info:
         - all
     - name: Debian
       versions:
-        - all
+        - bullseye
     - name: EL
       versions:
         - all
@@ -28,8 +28,7 @@ galaxy_info:
         - all
     - name: Ubuntu
       versions:
-        - focal
-        - bionic
+        - jammy
 
   galaxy_tags:
     - gitea
