@@ -17,10 +17,6 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
-        tag: "latest"
-      - image: "amazonlinux"
-        tag: "1"
       - image: "amazonlinux"
         tag: "latest"
       - image: "debian"
