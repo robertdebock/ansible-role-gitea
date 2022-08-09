@@ -12,4 +12,3 @@
     - name: check port 3000
       ansible.builtin.wait_for:
         port: 3000
-        
