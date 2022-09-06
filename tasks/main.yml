@@ -89,7 +89,7 @@
     group: root
     mode: "0644"
   notify:
-    - systemctl daemon-reload
+    - Systemctl daemon-reload
 
 - name: Flush handlers
   ansible.builtin.meta: flush_handlers
