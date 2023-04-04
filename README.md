@@ -44,7 +44,7 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 ---
 # defaults file for gitea
 
-gitea_version: "1.16.9"
+gitea_version: "1.19.0"
 ```
 
 ## [Requirements](#requirements)
