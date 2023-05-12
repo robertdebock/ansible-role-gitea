@@ -5,10 +5,10 @@
   gather_facts: yes
 
   tasks:
-    - name: run gitea --version
+    - name: Run gitea --version
       ansible.builtin.command:
         cmd: gitea --version
 
-    - name: check port 3000
+    - name: Check port 3000
       ansible.builtin.wait_for:
         port: 3000
