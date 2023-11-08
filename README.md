@@ -2,9 +2,9 @@
 
 Install and configure gitea on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-gitea/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gitea/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gitea/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gitea)|[![quality](https://img.shields.io/ansible/quality/59940)](https://galaxy.ansible.com/robertdebock/gitea)|[![downloads](https://img.shields.io/ansible/role/d/59940)](https://galaxy.ansible.com/robertdebock/gitea)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gitea.svg)](https://github.com/robertdebock/ansible-role-gitea/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-gitea/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-gitea/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-gitea/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-gitea)|[![downloads](https://img.shields.io/ansible/role/d/24501)](https://galaxy.ansible.com/robertdebock/gitea)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-gitea.svg)](https://github.com/robertdebock/ansible-role-gitea/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -84,7 +84,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gitea/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-gitea/issues).
 
 ## [License](#license)
 
