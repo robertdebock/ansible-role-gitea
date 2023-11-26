@@ -1,4 +1,4 @@
-# Ansible role [gitea](#gitea)
+# [Ansible role gitea](#gitea)
 
 Install and configure gitea on your system.
 
