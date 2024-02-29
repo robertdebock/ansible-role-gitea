@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install gitea on your system.
+  homepage: https://robertdebock.nl/
+  topics: gitea, application, development, tools, ansible, molecule, tox, playbook

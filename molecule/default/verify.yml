@@ -1,0 +1,14 @@
+---
+- name: Verify
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: Check if connection still works
+      ansible.builtin.ping:
+
+    - name: Access gitea web interface
+      ansible.builtin.uri:
+        url: "http://localhost:3000"
+        status_code: 200
