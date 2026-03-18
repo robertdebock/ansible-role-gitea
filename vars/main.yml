@@ -24,7 +24,7 @@ _gitea_os:
   Darwin: "darwin"
   FreeBSD: "freebsd"
   Windows: "windows"
-gitea_os: "{{ _gitea_os[ansible_system] }}"
+gitea_os: "{{ _gitea_os[ansible_facts['system']] }}"
 
 _gitea_architecture:
   x86_64: "amd64"
@@ -32,6 +32,6 @@ _gitea_architecture:
   armv6l: "arm-6"
   armv7l: "arm-7"
   aarch64: "arm64"
-gitea_architecture: "{{ _gitea_architecture[ansible_architecture] }}"
+gitea_architecture: "{{ _gitea_architecture[ansible_facts['architecture']] }}"
 
 gitea_url: "https://dl.gitea.io/gitea/{{ gitea_version }}/gitea-{{ gitea_version }}-{{ gitea_os }}-{{ gitea_architecture }}"
