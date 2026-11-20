@@ -47,7 +47,8 @@
   loop: "{{ gitea_directories }}"
   loop_control:
     label: "{{ item.path }}"
-  when: not gitea_app_ini.stat.exists
+  when:
+    - not gitea_app_ini.stat.exists
 
 - name: Place gitea service
   ansible.builtin.copy:
